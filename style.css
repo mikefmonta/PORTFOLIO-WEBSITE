@@ -26,6 +26,11 @@ a {
     text-decoration: none;
 }
 
+.mobi {
+    display: flex;
+    flex-direction: column;
+}
+
 .zone {
     /*padding:30px 50px;*/
     cursor:pointer;
@@ -88,6 +93,9 @@ footer {
         width: 100%;
         cursor: pointer;
         text-align: center;
+    }
+    .mobi {
+        flex-direction: column-reverse;
     }
 }
 
